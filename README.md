@@ -21,10 +21,10 @@ Through the individuality and flexibility, you can choose which payment methods 
 * No PCI DSS certification required
 * Secure SSL- encoded gateways
 * Easy way of managing ‘on-hold’ transactions (cancel or capture) and refunds (partial, full)
-* Find currently supported payment methods on https://www.novalnet.de/zahlungsabwicklung-und-online-zahlungsabwicklung-mit-der-novalnet-realisieren
+* Find currently supported payment methods on https://www.novalnet.de/zahlungsabwicklung
 
 ## More information
-Find more about Shopware 5 plugin on: https://www.novalnet.de/site_pdf/IG-shopware_4.1.4-5.6.9_novalnet_11.1.10_EN.pdf<br>
+Find more about Shopware 5 plugin on: https://www.novalnet.com/docs/plugins/installation-guides/shopware-5.0.0-5.7.2-novalnet-11.3.0.pdf<br>
 To test our demo shop, please visit: https://shopware.novalnet.de
 
 ## Installation
