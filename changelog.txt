@@ -1,0 +1,199 @@
+*** Changelog ***
+
+= 12.2.0   - 2022.09.2022
+* Major version release: Entire restructure & optimization of older version with usability, additional features and customizations
+
+= 11.3.6   - 2022.01.28 =
+* Fix 	   - Mozilla Samesite Cookies
+
+= 11.3.5   - 2021.11.19 =
+* Fix      - Storing the payment data for Credit/Debit Cards and PayPal under one-click shopping in PHP 8.0 version
+
+= 11.3.4   - 2021.11.16 =
+* Enhanced - Adjusted the payment plugin to create an order as per shop default flow
+
+= 11.3.3   - 2021.11.02 =
+* Fix      - For redirection payments,transaction amount mismatch in the email template for the customers have a tax ID
+
+= 11.3.2   - 2021.10.06 =
+* Fix      - Compatibility for PHP version 8.0
+
+= 11.3.1   - 2021.08.19 =
+* Fix      - Adjusted the payment plugin to receive Order confirmation e-mail for end-customer
+* Enhanced - Credit/Debit Cards payment method description
+
+= 11.3.0   - 2021.07.30 =
+* New 	   - Implemented enforce 3D secure payment for credit card for countries outside EU
+* New 	   - Implemented Payment duration for Prepayment
+* Fix 	   - Chrome same site issue for sub shop
+* Fix 	   - Compatibility issue for versions 5.0.0 - 5.7.2
+* Enhanced - Barzahlen payment method name and logo
+* Enhanced - Callback for transactions has been optimized as per the new testcase
+* Removed  - PIN by callback and PIN by SMS for Direct Debit SEPA and Invoice payment methods
+* Removed  - Proxy server configuration
+* Removed  - Gateway timeout configuration
+* Removed  - BCC field for Webhook Email notification
+* Removed  - Payment plugin update page 
+
+= 11.2.5   - 2020.10.13 =
+* Fix      - Chrome Samesite Cookies
+
+= 11.2.4   - 2020.06.10 =
+* Fix 	   - Compatibility issue for 5.0.0 to 5.6.7
+* Removed  - href links for the payment logo
+
+= 11.2.3   - 2020.03.26 =
+* New      - Implemented Novalnet update feature in shop backend
+* New	   - Notify end customer for storing card / account information
+* Fix      - Notification message after clearing the shopping cart
+
+= 11.2.2   - 2019.10.17 =
+* Fix      - Adjusted the plugin to set the proper "Cancellation payment status" when the customer cancels the order
+* Fix      - Issue in processing the proper payment type during subscription change payment method
+* Enhanced - Callback has been optimized as per the new testcase
+
+= 11.2.1   - 2019.08.26 =
+* Fix      - Compatible issue for Shopware 5.6.0 
+* Fix      - Issue with Shopware Import/Export plugin
+
+= 11.2.0     - 2019.07.25 =
+* New        - Implemented new encryption method for redirect payments 
+* New        - Customized the payment logo 
+* Enhanced   - Novalnet bank details will be displayed in invoice for on-hold transactions in Invoice, Invoice with payment guarantee and Prepayment
+* Enhanced   - Callback has been optimized as per the new testcase 
+* Enhanced   - Adjusted the payment module for IPV6 condition
+* Enhanced   - Novalnet Merchant Administration Portal link has been updated in shop admin 
+* Removed    - Autofill and Payment refill for payment data
+* Removed    - BIC field for Direct Debit SEPA
+* Removed    - Payment reference configuration for Invoice/prepayment
+* Removed    - Transaction reference in payments
+
+= 11.1.11    - 2019.05.30 =
+* Fix        - Adjusted payment plugin to restrict the double transaction
+
+= 11.1.10    - 2018.09.19=
+* New 	     - Abocommerce subscription process adapted
+* Enhanced   - Guaranteed payment pending status has been implemented
+* Enhanced   - Guaranteed payment minimum amount reduced to 9.99EUR
+* Enhanced   - Callback has been optimized as per the new testcase
+* Compatible - Transaction reference in payments
+
+= 11.1.9 	 - 2018.01.25 =
+* New 	 	 - Custom checkout overlay for Barzahlen
+* New    	 - Force 3D secure process has been implemented as per predefined filters and settings in the Novalnet admin portal
+* Fix    	 - Restricted critical mail triggering from the callback script for direct payment's rejected transaction
+* Fix    	 - Order confirmation mail sending to the shop owner
+* Fix    	 - Error message display for direct payment methods in the shop system
+* Enhanced   - Due date update notification in the shop, on activation of transaction for Invoice, Invoice with payment guarantee and Prepayment 
+* Enhanced   - On-hold transaction configuration has been implemented for Credit Card, Direct Debit SEPA, Direct Debit SEPA with payment guarantee, Invoice, Invoice with payment guarantee and PayPal
+* Enhanced   - Optimized IP condition check for remote address
+
+= 11.1.8 	 - 2018.01.05 =
+* Enhanced 	 - Optimized vendor script validation for handling communication failure transaction
+
+= 11.1.7 	 -  2017.12.01 =
+* Enhanced 	 - Creation of order as default before executing payment call in the shopsystem (for all redirect payment methods: online bank transfers, Credit Card-3D secure and wallet systems), to avoid the missing orders on completion of payment on non-return of end user due to end user closed the browser or time out at payment, etc.!
+
+= 11.1.6  	 - 2017.11.21 =
+* Enhanced 	 - Dynamic IP control applied through domain instead of static IP in vendor script. Actual IP of Novalnet will be extracted in real time from the domain
+
+= 11.1.5 	 - 2017.10.04 =
+* Fix 	   	 - Implemented Barzahlen payment method
+* Enhanced 	 - Optimized vendor script validation
+* Removed  	 - Enable debug mode configuration in Merchant script management
+
+= 11.1.4 	 - 2017.08.10 =
+* Fix 		 - Invoice reference parameter added for Guarantee Invoice
+* Fix 		 - Tariff ID configuration issue for Subshops
+* Enhanced 	 - Date of birth field updated as per the shop structure
+* Enhanced 	 - Merchant Administration Portal link has been updated in shop admin
+* Removed  	 - Refund with account details from shop admin
+
+= 11.1.3 	 - 2017.06.22 =	
+* Fix 		 - Rectified missing input data issue for redirection payments
+
+= 11.1.2 	 - 2017.05.19 =
+* Compatible - Tested upto Shopware version 5.2.24
+
+= 11.1.1 	 - 2017.04.21 = 
+* New        - Implemented Zero amount booking for Credit Card and Direct Debit SEPA
+* Enhanced   - Updated payment logo for Credit Card and Invoice payment
+* Enhanced   - Added new parameter in all API calls
+* Enhanced   - Novalnet updates information added in the plugin description
+* Compatible - Tested upto Shopware version 5.2.21
+
+= 11.1.0 - 2017.02.17 =
+
+  	- Credit Card iframe updated.
+   	- One click shopping for Credit Card and PayPal implemented.
+  	- Edit option in Credit Card and PayPal for registered customers implemented.
+  	- Zero amount booking for PayPal implemented.
+  	- On-hold transactions for PayPal implemented.
+   	- New payment method "Przelewy24" added.
+
+= 11.0.0 - 2016.09.26 =
+
+	- Auto configuration of vendor credentials
+	- One click shopping for Direct Debit SEPA
+	- Iframe and hosted page implementation for Credit Card
+	- Implemented Direct Debit SEPA with payment guarantee, Invoice with payment guarantee and giropay payments
+	- Edit option in Direct Debit SEPA for registered customers
+	- Notify URL configuration in shop backend .
+	- Logo control has been implemented in global configuration.
+	- Responsive templates has been implemented
+	- New booking with payment reference
+
+= 10.1.3 - 2016.11.04 =
+
+    - Przelewy24 payment implemented.
+    - Compatibility has been checked upto shopware version 5.2.9.
+    - Novalnet payment module has been optimized as per new testcase.
+
+= 10.1.2 - 2016.08.30 =
+
+    - Compatibility has been checked upto shopware version 5.2.6.
+    - Novalnet payment module has been optimized as per new testcase.
+
+= 10.1.1 - 2016.07.29 =
+    
+    - Compatibility has been checked upto shopware version 5.2.3.
+    - Novalnet payment module has been optimized as per new testcase.
+
+= 10.1.0 - 2016.06.23 =
+    
+    - Credit Card Iframe implemented.
+    - Compatibility has been checked for the latest shopware version 5.1.6
+
+= 10.0.2 - 2016.02.16 =
+    
+    - giropay payment has been implemented.
+    - Novalnet payment modules has been optimized as per new testcase.
+    - Compatibility has been checked for the latest shopware version 5.1.3
+
+= 10.0.1 - 2015.11.18 =
+
+    - Direct Debit SEPA overlay and Credit Card type removed.
+    - Notify URL configuration in shop backend.
+    - Logo control has been implemented in global configuration.
+    - Compatibility has been checked for shopware version 4.1.4-5.1.1.
+
+= 10.0.0 - 2015.07.13 =
+
+    - Novalnet Merchant API configuration has been globally implemented.
+    - On-hold transaction configuration.
+    - Merchant script notification mail configuration. 
+    - Merchant can set up their Referrer ID.
+    - Proxy server configuration.
+    - Merchant can define their gateway timeout.
+    - Auto-fill for payment data (Direct Debit SEPA).
+    - Fraud prevention through PIN by Callback/SMS/E-Mail. (For Credit Card, Direct Debit SEPA & Invoice).
+    - Integrated "AMEX card type".
+    - Subscription management.
+    - Payment reference option provided.
+    - Payment status management for all payment methods.
+    - Implemented "Extension" features 
+    - VOID & CAPTURE option for on-hold transaction payments (Direct Debit SEPA, Credit Card, Invoice & Prepayment).
+    - Refund option for the payments (Credit Card, Direct Debit SEPA, Invoice, Prepayment, Instant Bank Transfer, iDEAL & PayPal).
+    - Transaction amount update option (For Direct Debit SEPA, Invoice & Prepayment).
+    - Due date change option for Prepayment & Invoice payment.
+    - Affiliate management system.
