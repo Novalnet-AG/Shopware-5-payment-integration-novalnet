@@ -17,9 +17,13 @@ Through the individuality and flexibility, you can choose which payment methods 
 * Multilevel claims management with integrated handover to collection and various export functions for the Accounting
 * Automated e-mail notification function concerning payment status reports
 * Automated bookkeeping report in XML, SOAP, CSV, MT940
-* PCI compliant hosted page 
+* PCI compliant hosted page
 * No PCI DSS certification required
 * Secure SSL- encoded gateways
+* Simple seamless integration of the payment module
+* Credit/Debit Card iframe integration
+* Custom CSS configuration for Credit/Debit Card iframe
+* One-click shopping enabled for commonly used payment types
 * Easy way of managing ‘on-hold’ transactions (cancel or capture) and refunds (partial, full)
 * Find currently supported payment methods on https://www.novalnet.de/zahlungsabwicklung
 
