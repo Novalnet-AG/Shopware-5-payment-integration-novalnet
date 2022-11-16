@@ -1,0 +1,184 @@
+// payment-description.less
+
+.novalnet-info-box {
+    margin-top: 1.0rem;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #5f7285;
+    padding: 1em;
+    border-left: 5px solid #0080c9;
+    box-shadow: 0 0 8px 0px;
+}
+
+.method--description.is--last .nn-image {
+    border:none;
+    margin-top: 0.25rem;
+}
+
+.novalnet-payments {
+   margin-top: 1.0rem;
+}
+
+.nnclass {
+   margin-top: 1.0rem;
+   margin-bottom: 1.0rem;
+}
+
+.nn-wallet-pay-checkout, .nn-wallet-pay-cart {
+   float: right;
+}
+
+.nn-wallet-pay-ajaxCart {
+   margin: 0.625rem 0rem 0rem 0rem;
+}
+
+.nn-wallet-pay-login {
+    width: 45%;
+}
+
+@media screen and (min-width: @phoneLandscapeViewportWidth) {
+  .nn-wallet-pay-cart {
+    width: 49%;
+    text-align: center;
+    .unitize(margin-bottom, 0);
+  }
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+  .nn-wallet-pay-cart {
+    width: 25%;
+    text-align: center;
+    .unitize(margin-bottom, 0);
+  }
+}
+
+.nn-wallet-pay-login {
+	margin-top: .25rem;
+}
+	
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .nn-wallet-pay-login {
+		width: 100%;
+	}
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .nn-wallet-pay-login {
+		width: 100%;
+	}
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .nn-wallet-pay-login {
+		width: 70%;
+	}
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    .nn-wallet-pay-login {
+		width: 45%;
+	}
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    .nn-wallet-pay-login {
+		width: 45%;
+	}
+}
+
+.novalnetSepaAboutMandate {
+	display:none;
+	border: 1px solid #c7c8ca;
+	padding: 16px;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.novalnetInstalmentInfo a {
+	cursor:pointer;
+}
+
+.novalnetInstalmentInfo a:hover{
+	text-decoration:underline;
+}
+
+.novalnetSepaMandate{
+	cursor:pointer;
+	color: #5f7285;
+}
+
+.novalnetSepaMandate:hover{
+	text-decoration:underline;
+}
+
+div.novalnetinvoiceinstalmentDetail th, div.novalnetsepainstalmentDetail th {
+	background: #616162;
+}
+
+.novalnet-challenge-window-overlay {
+	position: fixed ! important;
+	width: 100% ! important;
+	height: 100% ! important;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #nnIframe {
+    width: 100%;
+  }
+}
+
+.novalnet-SavedPaymentMethods {
+	list-style: none outside;
+	margin: 0;
+	.novalnet-SavedPaymentMethods-token,
+	.novalnet-SavedPaymentMethods-new {
+		margin: 0 0 0.75em;
+		label {
+			cursor: pointer;
+		}
+	}
+	.novalnet-SavedPaymentMethods-tokenInput {
+		vertical-align: middle;
+		position: relative;
+	}
+}
+
+.onclick-image {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nn-test-drive{
+    position: relative;
+	background-color: #0080c9;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 0.8px;
+	border-radius: 0px 0px 5px 5px;
+	transition: transform 0.5s ease 0.5s;
+	animation: novalnet-blinker 2s linear infinite;
+	font-weight: bold;
+	float:right;
+}
+
+@keyframes novalnet-blinker {
+    100% {
+    opacity: 0;
+    }
+}
