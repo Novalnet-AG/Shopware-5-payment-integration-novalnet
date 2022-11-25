@@ -1,11 +1,16 @@
 *** Changelog ***
 
+= 12.3.1   - 25.11.2022
+* Fix      -  Payment plugin has been optimized for PickwareERP plugin
+* Enhanced - Updated cart details to PayPal
+* Removed  - Status based Capture, Void and Refund actions
+
 = 12.3.0   - 16.11.2022
-* New 	   - Implemented Google Pay payment
-* Fix 	   -  Transactions are optimized using Order ID without the use of session ID
+* New 	    - Implemented Google Pay payment
+* Fix 	    -  Transactions are optimized using Order ID without the use of session ID
 
 = 12.2.2   - 19.10.2022
-* Fix 	   - Compatibility for AboCommerce version 7.1.5
+* Fix 	    - Compatibility for AboCommerce version 7.1.5
 * Enhanced - Invoice payment name is updated for German translation
 * Removed  - One-click shopping for PayPal payment
 
