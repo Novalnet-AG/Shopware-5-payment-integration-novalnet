@@ -56,7 +56,7 @@ Through the individuality and flexibility, you can choose which payment methods 
 - Trustly
 
 ## More information
-Find more about Shopware 5 plugin on: https://www.novalnet.de/site_pdf/Installation_Guide-shopware_5.2.0-5.7.16_novalnet_12.3.0.pdf<br>
+Find more about Shopware 5 plugin on: https://www.novalnet.de/site_pdf/Installation_Guide-shopware_5.2.0-5.7.16_novalnet_12.3.1.pdf<br>
 To test our demo shop, please visit: https://shopware.novalnet.de
 
 ## Installation
