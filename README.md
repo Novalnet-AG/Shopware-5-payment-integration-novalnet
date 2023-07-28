@@ -5,33 +5,33 @@ Novalnet payment plugin is available for the Shopware versions 5.2.0 - 5.7.18  i
 
 Support is available in: <b> EN, DE </b>
 
-Through the individuality and flexibility, you can choose which payment methods and services you need. Get now a seamless integration with the various types of payments and payment-related services integrated in the one unique platform.
+Through individuality and flexibility, you can choose which payment methods and services you need. Get now a seamless integration with the various types of payments and payment-related services integrated in one unique platform.
 
 ## Important functions for Shopware 5
 * Seamless and fast integration of the payment plugin
 * Easy configuration of local and international payment methods
 * One platform for all relevant payment types and related services
 * More than 50 fraud prevention modules integrated to prevent risk in real-time
-* Comprehensive affiliate system with automated split conversion of transaction on revenue sharing
+* Comprehensive affiliate system with automated split conversion of transactions on revenue sharing
 * Dynamic subscription and member management for recurring payments
-* Multilevel claims management with integrated handover to collection and various export functions for the Accounting
+* Multilevel claims management with integrated handover to the collection and various export functions for the Accounting
 * Automated e-mail notification function concerning payment status reports
 * Automated bookkeeping report in XML, SOAP, CSV, MT940
-* PCI compliant hosted page
-* No PCI DSS certification required
+* PCI-compliant hosted page
+* No PCI DSS certification is required
 * Secure SSL- encoded gateways
-* Simple seamless integration of the payment module
+* Simple, seamless integration of the payment module
 * Seamless checkout Iframe integration
-* One click shopping supported for Credit/Debit Cards & Direct Debit SEPA
+* One-click shopping supported for Credit/Debit Cards & Direct Debit SEPA
 * Easy way of managing ‘on-hold’ transactions (cancel or capture) and refunds (partial, full)
 * Find currently supported payment methods on https://www.novalnet.de/zahlungsabwicklung
 
 ## Compatibility
 
-Shopware 5 payment plugin is compatible with below technical capabilities. 
+Shopware 5 payment plugin is compatible with the below technical capabilities. 
 
 - [x]	Shopware versions 5.2.0 - 5.7.18
-- [x]	Linux based OS with Apache 2.2 or 2.4
+- [x]	Linux-based OS with Apache 2.2 or 2.4
 - [x]	PHP 7.2.0 or higher
 - [x]	MySQL 5.7 or higher
 
@@ -77,9 +77,9 @@ Follow the below steps to install the payment plugin for Shopware 5 in the shop 
      - Plugin Manager
        - Installed > Upload plugin
        
-3. **Upload** the Shopware 6 payment Apps from Novalnet to the shop
+3. **Upload** the Shopware 5 payment plugin from Novalnet to the shop
 
-4. Click **Install** to install the Novalnet Shopware 6 payment Apps
+4. Click **Install** to install the Novalnet Shopware 5 payment plugin
 
 ## Contact
 Novalnet AG<br>
