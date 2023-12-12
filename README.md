@@ -23,6 +23,7 @@ Through individuality and flexibility, you can choose which payment methods and 
 * Simple, seamless integration of the payment module
 * Seamless checkout Iframe integration
 * One-click shopping supported for Credit/Debit Cards & Direct Debit SEPA
+* Zero amount authorization supported for Credit/Debit Cards, Direct Debit SEPA & Direct Debit ACH
 * Easy way of managing ‘on-hold’ transactions (cancel or capture) and refunds (partial, full)
 * Find currently supported payment methods on https://www.novalnet.de/zahlungsabwicklung
 
@@ -38,6 +39,7 @@ Shopware 5 payment plugin is compatible with the below technical capabilities.
 ## Integrated payment methods
 
 - Direct Debit SEPA
+- Direct Debit ACH
 - Credit/Debit Cards
 - Apple Pay
 - Google Pay
@@ -54,6 +56,7 @@ Shopware 5 payment plugin is compatible with the below technical capabilities.
 - Przelewy24
 - eps
 - PayPal
+- MB Way
 - PostFinance Card
 - PostFinance E-Finance
 - Bancontact
@@ -62,9 +65,10 @@ Shopware 5 payment plugin is compatible with the below technical capabilities.
 - Alipay
 - WeChat Pay
 - Trustly
+- Blik
 
 ## More information
-Find more about Shopware 5 plugin on: https://www.novalnet.de/site_pdf/Installation_Guide-shopware_5.2.0-5.7.18_novalnet_13.0.2.pdf<br>
+Find more about Shopware 5 plugin on: https://www.novalnet.de/site_pdf/Installation_Guide-shopware_5.2.0-5.7.18_novalnet_13.1.0.pdf<br>
 To test our demo shop, please visit: https://shopware.novalnet.de
 
 ## Quick Installation via plugin upload
