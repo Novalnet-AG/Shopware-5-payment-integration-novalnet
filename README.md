@@ -1,7 +1,7 @@
 # NOVALNET PAYMENT PLUGIN FOR SHOPWARE 5
 Novalnet payment plugin for Shopware 5 simplifies your daily work by automating the entire payment process, from checkout till collection. This plugin is designed to help you increase your sales by offering various payment methods on a one-page checkout. The plugin which is perfectly adjusted to the Shopware shop with top-quality range of services of the payment provider.
 
-Novalnet payment plugin is available for the Shopware versions 5.2.0 - 5.7.17  in the following languages: <b>EN, DE</b>
+Novalnet payment plugin is available for the Shopware versions 5.2.0 - 5.7.18 in the following languages: <b>EN, DE</b>
 
 Support is available in: <b> EN, DE, FR, ES, IT, BS, CR, RU, HI, TA</b>
 
