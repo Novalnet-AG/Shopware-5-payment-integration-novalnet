@@ -88,8 +88,8 @@ Follow the below steps to install the payment plugin for Shopware 5 in the shop 
 ## Contact
 Novalnet AG<br>
 Zahlungsinstitut (ZAG)<br>
-Feringastr. 4 <br>
-85774 Unterföhring <br>
+Gutenbergstraße 7<br>
+D-85748 Garching<br>
 Deutschland<br>
 E-mail: sales@novalnet.de<br>
 Tel: +49 89 9230683-20<br>
